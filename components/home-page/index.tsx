@@ -56,7 +56,7 @@ export const HomePage = () => {
   };
 
   return (
-    <div className="w-full h-[100vh] flex justify-center items-center m-auto">
+    <div className="w-full h-[80vh] flex justify-center items-center m-auto">
       <div className="flex justify-between items-start gap-8 w-4/5 mx-auto">
         <div className="flex flex-col gap-8 w-full h-full">
           <div>
