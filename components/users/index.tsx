@@ -26,9 +26,9 @@ export const AllUsersPage = () => {
               <img
                 src={item.img}
                 alt={item.name}
-                className="rounded-2xl h-[8rem] w-[12rem] object-cover p-2 w-max border border-primary border-dashed group-hover:brightness-50 transition duration-300"
+                className="rounded-2xl h-[8rem] w-[12rem] object-cover p-2 w-full border border-primary border-dashed group-hover:brightness-50 transition duration-300"
               />
-              <div className="absolute cursor-pointer w-[12rem] inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+              <div className="absolute cursor-pointer w-full inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                 <span className="text-white text-center text-lg">{item.name.split(' ')[0]}</span>
               </div>
             </div>
